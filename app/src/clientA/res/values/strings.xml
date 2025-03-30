@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_name">Netflix</string>
+
+    <string name="page1_txt_string">Control and access your complete charging activity</string>
+    <string name="page2_txt_string">Activate Home Chargers with less step</string>
+    <string name="page3_txt_string">Access near by chargers using location permission</string>
+</resources>

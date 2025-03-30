@@ -1,0 +1,141 @@
+{
+  "base_configuration": {
+    "identifier": {
+      "android": {
+        "id": "",
+        "versionCode": 1,
+        "versionName": "1.4.0"
+      },
+      "apple": {
+        "id": "",
+        "team_id": ""
+      }
+    },
+    "display_name": {
+      "base": "en",
+      "localized": {
+        "en": "whitelabel"
+      }
+    },
+    "booking_review_request_frequency": 0
+  },
+  "constants": {
+    "policy_url": {
+      "base": "en",
+      "localized": {
+        "en": "https://www.google.com",
+        "ru": "https://www.google.ru"
+      }
+    },
+    "feedback_email": "test@test.com",
+    "feedback_theme": null,
+    "google_maps_api_key": "",
+    "appstore_id": "",
+    "marker": 0,
+    "client_device_host": "",
+    "api_key": "",
+    "sharing_data": {
+      "sharing_link": "",
+      "handling_link": ""
+    },
+    "appsflyer_dev_key": ""
+  },
+  "advertising": {
+    "appodeal_api_key": "",
+    "google_admob_app_id": "",
+    "placements": {
+      "air_ticket_placement_interstitial": "",
+      "air_ticket_placement_banner": "",
+      "hotels_placement_interstitial": "",
+      "hotels_placement_banner": ""
+    }
+  },
+  "style": {
+    "base_color": "#d9332e",
+    "corners_type": "round",
+    "icons_type": "tint",
+    "palette": "lab",
+    "overridden_color": {
+
+    }
+  },
+  "info_screen_config": {
+    "items_to_display": [
+      "about_app",
+      "rate_app",
+      "share_app",
+      "favorites"
+    ],
+    "about_app_info": {
+      "description": {
+        "base": "en",
+        "localized": {
+          "en": "Application description",
+          "ru": "Описание приложения"
+        }
+      },
+      "developer": {
+        "base": "en",
+        "localized": {
+          "en": "CleverPumpkin Ltd."
+        }
+      },
+      "partner_url": {
+        "base": "en",
+        "localized": {
+          "en": "https://www.google.com"
+        }
+      }
+    }
+  },
+  "white_label_config": {
+    "screens_to_display": [
+      {
+        "type": "flights"
+      },
+      {
+        "type": "hotels"
+      },
+      {
+        "type": "other",
+        "parameters": {
+          "id": "Other1",
+          "title": {
+            "base": "en",
+            "localized": {
+              "en": "Other",
+              "ru": "Другое"
+            }
+          },
+          "url": {
+            "base": "en",
+            "localized": {
+              "en": "https://www.google.com",
+              "ru": "https://www.google.ru"
+            }
+          }
+        }
+      },
+      {
+        "type": "other",
+        "parameters": {
+          "id": "Other2",
+          "title": {
+            "base": "en",
+            "localized": {
+              "en": "Other2",
+              "ru": "Другое2"
+            }
+          },
+          "url": {
+            "base": "en",
+            "localized": {
+              "en": "https://www.google.com",
+              "ru": "https://www.google.ru"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
